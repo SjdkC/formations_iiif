@@ -1,0 +1,114 @@
+
+{
+
+    "@id": "https://archives.aisne.fr/ark:/63271/vta2fc29d817994efc3/manifest",
+    "logo": {
+        "@id": "https://archives.aisne.fr/img/logo_cg00.png"
+    },
+    "@type": "sc:Manifest",
+    "label": "8 Fi 71 -  aulnois ; AULNOIS/Eglise d'aulnoy    Sans date",
+    "service": {
+        "@id": "https://archives.aisne.fr/ark:/63271/vta2fc29d817994efc3/iiif/search",
+        "profile": "https://iiif.io/api/search/1/search",
+        "@context": "https://iiif.io/api/search/1/context.json"
+    },
+    "@context": "https://iiif.io/api/presentation/2/context.json",
+    "metadata": [
+        {
+            "label": "Contenu",
+            "value": "Texte sur le village d'Aulnois (recto) ; plan et face nord-ouest de l'église d'Aulnois (verso)"
+        },
+        {
+            "label": "Cote ancienne",
+            "value": "8 Fi Aulnois 2"
+        },
+        {
+            "label": "Dimensions",
+            "value": "25,4 x 19,9"
+        },
+        {
+            "label": "Importance matérielle",
+            "value": "Calque collé sur papier"
+        },
+        {
+            "label": "Sujet",
+            "value": "Eglise"
+        },
+        {
+            "label": "Commune ou lieu-dit",
+            "value": "Aulnois-sous-Laon (Aisne)"
+        },
+        {
+            "label": "Personne",
+            "value": "[Amédée Piette] / [Amédée Piette]"
+        },
+        {
+            "label": "Type de document",
+            "value": "Dessin ; Imprimé, Crayon noir repassé à la plume encre noire et sépia, lavis encre noire"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://archives.aisne.fr/ark:/63271/vta2fc29d817994efc3/daogrp/0",
+            "@type": "sc:Sequence",
+            "label": "8 Fi 71 -  aulnois ; AULNOIS/Eglise d'aulnoy    Sans date",
+            "canvases": [
+                {
+                    "@id": "https://archives.aisne.fr/ark:/63271/vta2fc29d817994efc3/canvas/0/1",
+                    "@type": "sc:Canvas",
+                    "label": "aulnois ; AULNOIS/Eglise d'aulnoy",
+                    "width": 2250,
+                    "height": 2250,
+                    "images": [
+                        {
+                            "on": "https://archives.aisne.fr/ark:/63271/vta2fc29d817994efc3/canvas/0/1",
+                            "@id": "https://archives.aisne.fr/archive/download?file=https%3A%2F%2Farchives.aisne.fr%2Fdata%2Ffiles%2Fad02.diffusion%2Fimages%2FFonds_icono%2FFonds_icono_008Fi%2FFRAD002_Fonds_icono_008Fi_00071_1.jpg",
+                            "@type": "oa:Annotation",
+                            "resource": {
+                                "@id": "https://archives.aisne.fr/archive/download?file=https%3A%2F%2Farchives.aisne.fr%2Fdata%2Ffiles%2Fad02.diffusion%2Fimages%2FFonds_icono%2FFonds_icono_008Fi%2FFRAD002_Fonds_icono_008Fi_00071_1.jpg",
+                                "@type": "dctypes:Image",
+                                "width": 2250,
+                                "format": "image/jpeg",
+                                "height": 2250,
+                                "service": {
+                                    "@id": "https://archives.aisne.fr/iiif/Fonds_icono/Fonds_icono_008Fi/FRAD002_Fonds_icono_008Fi_00071_1.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level1.json",
+                                    "@context": "https://iiif.io/api/image/2/context.json"
+                                }
+                            },
+                            "motivation": "sc:painting"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://archives.aisne.fr/ark:/63271/vta2fc29d817994efc3/canvas/0/2",
+                    "@type": "sc:Canvas",
+                    "label": "aulnois ; AULNOIS/Eglise d'aulnoy",
+                    "width": 2250,
+                    "height": 2250,
+                    "images": [
+                        {
+                            "on": "https://archives.aisne.fr/ark:/63271/vta2fc29d817994efc3/canvas/0/2",
+                            "@id": "https://archives.aisne.fr/archive/download?file=https%3A%2F%2Farchives.aisne.fr%2Fdata%2Ffiles%2Fad02.diffusion%2Fimages%2FFonds_icono%2FFonds_icono_008Fi%2FFRAD002_Fonds_icono_008Fi_00071_2.jpg",
+                            "@type": "oa:Annotation",
+                            "resource": {
+                                "@id": "https://archives.aisne.fr/archive/download?file=https%3A%2F%2Farchives.aisne.fr%2Fdata%2Ffiles%2Fad02.diffusion%2Fimages%2FFonds_icono%2FFonds_icono_008Fi%2FFRAD002_Fonds_icono_008Fi_00071_2.jpg",
+                                "@type": "dctypes:Image",
+                                "width": 2589,
+                                "format": "image/jpeg",
+                                "height": 2589,
+                                "service": {
+                                    "@id": "https://archives.aisne.fr/iiif/Fonds_icono/Fonds_icono_008Fi/FRAD002_Fonds_icono_008Fi_00071_2.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level1.json",
+                                    "@context": "https://iiif.io/api/image/2/context.json"
+                                }
+                            },
+                            "motivation": "sc:painting"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+
+}
